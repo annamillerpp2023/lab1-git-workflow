@@ -1,0 +1,40 @@
+{
+  "name": "lab1-git-workflow",
+  "version": "1.0.0",
+  "description": "Навчальний проєкт для освоєння Git workflow.\r ## MVP\r Базова структура проєкту.\r ## Запуск\r Проєкт навчальний.",
+  "main": "index.js",
+  "type": "commonjs",
+
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ignore-pattern coverage",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "coverage": "jest --coverage",
+    "e2e": "cypress open"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annamillerpp2023/lab1-git-workflow.git"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "bugs": {
+    "url": "https://github.com/annamillerpp2023/lab1-git-workflow/issues"
+  },
+
+  "homepage": "https://github.com/annamillerpp2023/lab1-git-workflow#readme",
+
+  "devDependencies": {
+    "cypress": "^15.11.0",
+    "jest": "^30.3.0",
+    "vite": "^8.0.10",
+    "eslint": "^9.0.0"
+  }
+}
